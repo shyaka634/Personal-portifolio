@@ -28,9 +28,90 @@
     <div class="hero-content">
     <h1>Shyaka Thierry</h1>
     <p>Your friendly web developer & designer</p>
-    <img src=""
+    <img src="Titi.jpeg" class="profile-pic">
     </div>
 </section>
+   <section id="projects" class="project-section">
+    <h2>Projects</h2>
+    <div class="project-list">
+     <article class="project">
+        <h3>To Do list</h3>
+        <img src="image3.png">
+        <p>This is a ToDo list that checks whether the user have done a certain <br> task were ny He/She clicks "check" and then the task is verified</p>
+        <p><strong>Technologies</strong>
+            HTML, CSS, JavaScript</p>
+            <a href="https://github.com/yourprofile/project-one" target="_blank">GitHub Repo</a>
+     </article>
+    <article class="project">
+        <h3>Personal Portifolio</h3>
+        <img src="image.png">
+        <p>This is a simple project that defines the user's <br>credentials involving in the individuals's skills,<br> Education, fields ,and The individual's contact.</p>
+        <p><strong>Technologies:</strong></p>
+        <a href="https://github.com/yourprofile/project-two" target="_blank">GitHub Repo</a>
+        
+    </article>
+    <article class="project">
+        <h3>Simple calculator</h3>
+        <img src="image2.png"/>
+        <p>This is a simple project of a calculator that<br> contains Arithmetic operations</p>
+        <p><strong>Technologies:</strong>HTML, CSS, JavaScript</p>
+        <a href="https://github.com/yourprofile/project-three" target="_black">GitHub Repo</a>
+    </article>
+    </div>
+   </section>
+   <section id="education" class="education-section">
+    <h2>Education</h2>
+    <ul>
+        <li>
+            <h3>SOS Technical School</h3>
+            <p>Software developer</p>
+            <p>2025 - 2026</p>
+        </li>
+    </ul>
+   </section>
+
+   <section id="blog" class="blog-section">
+    <h2>Blog</h2>
+    <div id="blog-posts">
+
+    </div>
+   </section>
+   <section id="contact" class="contact-section">
+    <h2>Contact</h2>
+    <form id="contactForm">
+      <label for="contact-name">Name</label>
+      <input type="text" id="contact-name" required>
+
+      <label for="contact-email">Email</label>
+      <input type="email" id="contact-email" required>
+
+      <label for="contact-message">Message</label>
+      <textarea id="contact-message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+      <p id="contact-success" class="success-message"></p>
+
+    </form>
+   </section>
   </main> 
+
+  <footer>
+    <p>© Shyaka Thierry 2025</p>
+    <div class="social-links">
+   <a href="https://github.com/yourprofile" target="_black"><i class="fa-brands fa-github"></i></a>
+   <a href="https://linkedin.com/in/yourprofile" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+
+    
+    </div>
+  </footer>
+<script>
+    function loadBlogPosts(){
+        const blogContainer=document.getElementById('blog-posts');
+        BlogContainer.innerHTML='';
+        const post=JSON.parse(localStorage.getItem('blogPosts')) || [];
+        post.foreach(post =>{
+            const postE
+        })
+    }
+</script>
 </body>
 </html>
