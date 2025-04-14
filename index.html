@@ -3,115 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <title>Portifolio</title>
+    <link rel="stylesheet" href="styles.css">  
 </head>
+
 <body>
-  <nav>
-    <div class="nav_left">
-        <a href="">Shyaka Thierry</a>
+  <nav id="">
+    <div>
+     <h2>Shyaka Thierry</h2>
     </div>
-    <div class="nav-right">
-<a href="">Projects</a>
-<a href="">Education</a>
-<a href="">Blog</a>
-<a href="dashboard.html">Dashboard</a>
-<a href="">Contacts</a>
+    <div class="links">
+        <a href="">Projects</a>
+        <a href="">Education</a>
+        <a href="">Blog</a>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="">Contact</a>
     </div>
-  </nav> 
+  </nav>  
   <main>
-<section id="hero" class="hero-section">
-    <div class="hero-content">
-    <h1>Shyaka Thierry</h1>
-    <p>Your friendly web developer & designer</p>
-    <img src="Titi.jpeg" class="profile-pic">
-    </div>
-</section>
-   <section id="projects" class="project-section">
-    <h2>Projects</h2>
-    <div class="project-list">
-     <article class="project">
-        <h3>To Do list</h3>
-        <img src="image3.png">
-        <p>This is a ToDo list that checks whether the user have done a certain <br> task were ny He/She clicks "check" and then the task is verified</p>
-        <p><strong>Technologies</strong>
-            HTML, CSS, JavaScript</p>
-            <a href="https://github.com/yourprofile/project-one" target="_blank">GitHub Repo</a>
-     </article>
-    <article class="project">
-        <h3>Personal Portifolio</h3>
-        <img src="image.png">
-        <p>This is a simple project that defines the user's <br>credentials involving in the individuals's skills,<br> Education, fields ,and The individual's contact.</p>
-        <p><strong>Technologies:</strong></p>
-        <a href="https://github.com/yourprofile/project-two" target="_blank">GitHub Repo</a>
-        
+    <section class="hero">
+        <h1>Shyaka Thierry</h1>
+        <img src="Titi.jpeg" class="profile-pic"><br>
+        <h>Your friendly web developer & designer</h>
+    </section>
+    <section>
+      <h2>Projects</h2><br>
+      <article>
+        <h3>TO DO app</h3><img src="image3.png"><br>
+        <h>A short description of project one.</h><br>
+        <strong>Technologies</strong>:HTML, CSS, JavaScript
+        <a href="https://github.com/shyaka634/pandas.git">GitHub Repo</a>
+      </article><br>
+      <article>
+        <h3>Personal Portifolio</h3><br>
+        <img src="image.png"><br>
+        <h>A short description of project of project two.</h><br>
+        <strong>Technologies</strong>:HTML, CSS, Javascript
+        <a href="https://github.com/yourprofile/project-two">GitHub Repo</a>
+      </article><br>
+      <h3>Simple calculator</h3><br>
+      <img src="image2.png"><br>
+      <h>A short description of project of project three.</h><br>
+      <strong>Technologies</strong>:HTML, CSS, Javascript
+      <a href="https://github.com/yourprofile/project-two">GitHub Repo</a>
     </article>
-    <article class="project">
-        <h3>Simple calculator</h3>
-        <img src="image2.png"/>
-        <p>This is a simple project of a calculator that<br> contains Arithmetic operations</p>
-        <p><strong>Technologies:</strong>HTML, CSS, JavaScript</p>
-        <a href="https://github.com/yourprofile/project-three" target="_black">GitHub Repo</a>
-    </article>
-    </div>
-   </section>
-   <section id="education" class="education-section">
-    <h2>Education</h2>
-    <ul>
-        <li>
-            <h3>SOS Technical School</h3>
-            <p>Software developer</p>
-            <p>2025 - 2026</p>
-        </li>
-    </ul>
-   </section>
-
-   <section id="blog" class="blog-section">
-    <h2>Blog</h2>
-    <div id="blog-posts">
-
-    </div>
-   </section>
-   <section id="contact" class="contact-section">
-    <h2>Contact</h2>
-    <form id="contactForm">
-      <label for="contact-name">Name</label>
-      <input type="text" id="contact-name" required>
-
-      <label for="contact-email">Email</label>
-      <input type="email" id="contact-email" required>
-
-      <label for="contact-message">Message</label>
-      <textarea id="contact-message" rows="5" required></textarea>
-      <button type="submit">Send Message</button>
-      <p id="contact-success" class="success-message"></p>
+    </section><br><br>
+    <section>
+      <h3>Education</h3><br>
+      <h4>SOS Technical School</h4>
+      <h>Software developer</h><br>
+      <h>2025-2026</h>
+    </section><br>
+    <section>
+      <h3>Blog</h3><br>
+    
+    </section><br>
+    <section>
+    <h3>Contact</h3><br>
+    <form action="" method="POST">
+      <label>Name</label><br>
+      <input type="text"><br><br>
+      <label>Email</label><br>
+      <input type="email"><br><br>
+      <label>Message</label><br>
+      <textarea wrap="soft"></textarea><br>
+      <button>Send Message</button>
 
     </form>
-   </section>
-  </main> 
-
+    </section>
+  </main><br>
   <footer>
-    <p>© Shyaka Thierry 2025</p>
-    <div class="social-links">
-   <a href="https://github.com/yourprofile" target="_black"><i class="fa-brands fa-github"></i></a>
-   <a href="https://linkedin.com/in/yourprofile" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-
-    
-    </div>
+   <h>Shyaka Thierry 2025</h><br>
+   <a href=""><i class="fa-brands fa-github"></i></a>&nbsp;&nbsp;<a href=""><i class="fa-brands fa-linkedin"></i></a>
   </footer>
-<script>
-    function loadBlogPosts(){
-        const blogContainer=document.getElementById('blog-posts');
-        BlogContainer.innerHTML='';
-        const post=JSON.parse(localStorage.getItem('blogPosts')) || [];
-        post.foreach(post =>{
-            const postE
-        })
-    }
-</script>
 </body>
 </html>

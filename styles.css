@@ -1,158 +1,25 @@
- *{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
- }   
- body{
-    font-family: 'Poppins', sans-serif;
-    line-height:1.6;
-    color: #333;
- }
-
- nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background:#555;
-    padding: 10px 20px; 
- }
- nav a{
-    color: #fff;
-    text-decoration: none;
-    margin: 10px;
- }
- .nav-right a:hover{
-    color: #f0a500;
- }
- .hero-section{
-    background: #f4f4f4;
-    text-align: center;
-    padding: 40px 20px;
- }
- .profile-pic{
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    
-    
- }
- .hero-section h1{
-    font-size: 2.5em;
-    margin-bottom: 10px;
- }
- .hero-section p{
-    margin-bottom: 20px;
- }
- .project-section{
-   padding:40px 20px;
-   background: #fff;
- }
- .project-section h2{
-   text-align: center;
-   margin-bottom: 20px;
-
- }
- .project-list{
-   display: flex;
-   flex-wrap: wrap;
-   gap: 20px;
-   justify-content: center;
- }
- .project{
-   border: 1px solid #ddd;
-   border-radius:  5px;
-   padding: 15px;
-   width: 300px;
-   text-align: center;
-
- }
- .project img{
-   max-width: 100%;
-   height: auto;
-   border-radius: 5px;
- }
- .education-section{
-   background: #f4f4f4;
-   padding: 40px 20px;
- }
- .education-section ul{
-   list-style: none;
- }
- .education-section li{
-   margin-bottom: 20px;
- }
- .blog-section .blog-post{
-   margin-bottom: 20px;
-   padding-bottom: 10px;
-   border-bottom: 1px solid #ddd;
- }
- .contact-section{
-   background: #f4f4f4;
-   padding: 40px 20px;
- }
- .contact-section form{
-   max-width: 500px;
-   margin: 0 auto;
-   display: flex;
-   flex-direction: column;
- }
- .contact-section label{
-   margin-top: 10px;
- }
- .contact-section input,.contact-section textarea{
-   padding: 10px;
-   margin-top: 5px;
-   border: 1px solid #ccc;
-   border-radius: 3px;
-   
- }
-.contact-section button{
-   margin-top: 15px;
-   padding: 10px;
-   background: #f0a500;
-   border: none;
-   color: #fff;
-   border-radius: 3px;
-   cursor: pointer;
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins' serif;
 }
-.success-message{
-   color:green;
-   margin-top: 10px;
+nav{
+  background: grey;
+  margin: 0;
+  padding: 0;
 }
-
-.dashboard-post button {
-   margin-top: 5px;
-   padding: 5px 10px;
-   background: #555;
-   border: none;
-   color:#fff;
-   border-radius: 3px;
-   cursor: pionter;
+.links{
+display: flex;
+align-items: center;
+justify-content: center;
 }
-footer{
-  background: #555;
-  color:#fff;
+.profile-pic{
+  width: 5pc;
+  height: 5pc;
+  margin-top:2pc;
+}
+.hero{
+  display: flex;
+  margin-top: 2pc;
   text-align: center;
-  padding:20px;
 }
-footer .social-links a{
-  margin:0 5px;
-  color: #fff;
-  font-size: 1.2em;
-}
-@media(max-width: 768px){
-  .project-list{
-    flex-direction: column;
-    align-items:center;
-  }
-  nav{
-    flex-direction: column;
-  }
-}
-
-
-
-
- 
- 
- 
