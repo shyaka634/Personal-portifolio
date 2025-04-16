@@ -1,84 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <title>Portifolio</title>
-    <link rel="stylesheet" href="styles.css">  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="styles.css">  
 </head>
-
 <body>
-  <nav id="">
+  <nav>
     <div>
-     <h2>Shyaka Thierry</h2>
+      <h2 class="Shyaka"><i class="fa-solid fa-code"></i>Shyaka</h2>
     </div>
     <div class="links">
-        <a href="">Projects</a>
-        <a href="">Education</a>
-        <a href="">Blog</a>
-        <a href="dashboard.html">Dashboard</a>
-        <a href="">Contact</a>
+      <a href="#Project">Projects</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="#Education">Education</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="#Blog">Blog</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="#contact">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="dashboard.html">Dashboard</a>
     </div>
   </nav>  
   <main>
-    <section class="hero">
-        <h1>Shyaka Thierry</h1>
-        <img src="Titi.jpeg" class="profile-pic"><br>
-        <h>Your friendly web developer & designer</h>
-    </section>
     <section>
-      <h2>Projects</h2><br>
-      <article>
-        <h3>TO DO app</h3><img src="image3.png"><br>
-        <h>A short description of project one.</h><br>
-        <strong>Technologies</strong>:HTML, CSS, JavaScript
-        <a href="https://github.com/shyaka634/pandas.git">GitHub Repo</a>
-      </article><br>
-      <article>
-        <h3>Personal Portifolio</h3><br>
-        <img src="image.png"><br>
-        <h>A short description of project of project two.</h><br>
-        <strong>Technologies</strong>:HTML, CSS, Javascript
-        <a href="https://github.com/yourprofile/project-two">GitHub Repo</a>
-      </article><br>
-      <h3>Simple calculator</h3><br>
-      <img src="image2.png"><br>
-      <h>A short description of project of project three.</h><br>
-      <strong>Technologies</strong>:HTML, CSS, Javascript
-      <a href="https://github.com/yourprofile/project-two">GitHub Repo</a>
-    </article>
+      <div class="representation">
+        <h3 class="Hello">Hello It's Me</h3><br>
+        <h1 class="Names">Shyaka Thierry</h1><br>
+        <h3>And I'm a<h3 class="dev">Software developer</h3></span></h3><br>
+        <h3 class="k">I am very glad to provide for<br>you web development services</h3><br>
+        <i class="fa-brands fa-github"></i>&nbsp;&nbsp;<i class="fa-brands fa-instagram"></i>&nbsp;&nbsp;<i class="fa-brands fa-linkedin-in"></i>&nbsp;&nbsp;<i class="fa-brands fa-x-twitter"></i>
+      </div>
+      <div id="hero-image">
+        <img src="Hero.png" alt="Hero Image" class="Hero">
+      </div>  
+    </section><br>
+    <section class="project" id="Project">
+      <h2 class="p">Projects</h2><br>
+      <article id="project-Portifolio">
+        <h3 class="a">Portfolio</h3>
+        <img src="Portifolio.png" class="portifolio" alt="Portfolio Screenshot"><br>
+        This is a personal portfolio that represents an individual's information and experience.<br>
+        <strong>Technologies</strong>: HTML, CSS, JavaScript<br>
+        <a href="https://github.com/shyaka634/pandas.git"><button>GitHub</button></a>
+      </article><br><br>
+      <article id="ToDo">
+        <h3 class="t">To DO list</h3><br>
+        <img src="To do.png" class="todo" alt="To Do List App"><br>
+        This is a To Do list app that helps you check whether the user has finished the task.<br>
+        <strong>Technologies</strong>: HTML, CSS, JavaScript<br>
+        <a href="https://github.com/yourprofile/project-two"><button class="button2">GitHub</button></a>
+      </article><br><br>
+      <article id="Calc">
+        <h3 class="c">Calculator</h3><br>
+        <img src="Calculator.png" class="calculator" alt="Calculator App"><br>
+        This is a simple calculator that only uses arithmetic operations.<br>
+        <strong>Technologies</strong>: HTML, CSS, JavaScript<br>
+        <a href="https://github.com/yourprofile/project-two"><button class="button3">GitHub</button></a>
+      </article>
     </section><br><br>
-    <section>
-      <h3>Education</h3><br>
-      <h4>SOS Technical School</h4>
-      <h>Software developer</h><br>
-      <h>2025-2026</h>
-    </section><br>
-    <section>
-      <h3>Blog</h3><br>
-    
-    </section><br>
-    <section>
-    <h3>Contact</h3><br>
-    <form action="" method="POST">
-      <label>Name</label><br>
-      <input type="text"><br><br>
-      <label>Email</label><br>
-      <input type="email"><br><br>
-      <label>Message</label><br>
-      <textarea wrap="soft"></textarea><br>
-      <button>Send Message</button>
-
-    </form>
+    <section id="Education">
+      <div class="education">
+        <h2>Education</h2><br><br>
+        <h3>. SOS Technical School</h3><br><br>
+        <h3>. Diploma Degree</h3><br><br>
+        <h3>. 2024 - 2025</h3>
+      </div>
+      <div>
+        <img src="Hero.png" class="Herro" alt="Educational Image">
+      </div>
     </section>
-  </main><br>
-  <footer>
-   <h>Shyaka Thierry 2025</h><br>
-   <a href=""><i class="fa-brands fa-github"></i></a>&nbsp;&nbsp;<a href=""><i class="fa-brands fa-linkedin"></i></a>
-  </footer>
+    <section class="blog-section" id="Blog">
+      <div class="blog">
+        <h2>Blog Post</h2><br><br>
+      </div>
+      <div id="blog-posts">
+        <!-- JavaScript generated blog posts will be inserted here -->
+      </div>
+    </section>
+    <section id="contact">
+      <div class="contacts">
+        <h2>Contacts</h2>
+      </div>
+      <div class="form">
+        <form action="" method="post">
+          <label>Name</label>
+          <input type="text" class="name"><br><br><br>
+          <label>Email</label>
+          <input type="email"><br><br><br>
+          <label class="Comment">Comment</label><br>
+          <textarea wrap="soft"></textarea><br><br>
+          <input type="submit" value="Submit" class="submit">
+        </form>
+      </div>
+    </section><br><br><br><br><br><br><br><br>
+    <footer>
+      <div class="Thierry">
+        <p>© Shyaka Thierry</p>
+      </div>
+      <div class="icon">
+        <i class="fa-brands fa-github"></i>
+        <i class="fa-brands fa-linkedin-in"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-x-twitter"></i>
+      </div>
+    </footer>
+    <script>
+      // Function to display blog posts (from localStorage)
+      function loadBlogPosts() {
+        const blogContainer = document.getElementById('blog-posts');
+        blogContainer.innerHTML = '';
+        const posts = JSON.parse(localStorage.getItem('BlogPosts')) || [];
+        posts.forEach(post => {
+          const postEl = document.createElement('div');
+          postEl.className = 'blog-post';
+          postEl.innerHTML = `
+            <h3>${post.title}</h3>
+            <small>${post.date}</small>
+            <p>${post.content.substring(0, 150)}...</p>
+          `;
+          blogContainer.appendChild(postEl);
+        });
+      }
+      document.addEventListener('DOMContentLoaded', loadBlogPosts);
+    </script>
 </body>
 </html>

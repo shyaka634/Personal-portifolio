@@ -1,25 +1,313 @@
-*{
-  padding: 0;
-  margin: 0;
-  font-family: 'Poppins' serif;
+body{
+  padding-left: 5pc;
+  padding-right: 5pc;
 }
-nav{
-  background: grey;
-  margin: 0;
-  padding: 0;
+.Shyaka{
+font-family:Poppins;
 }
-.links{
-display: flex;
-align-items: center;
-justify-content: center;
+.links {
+  margin-left: 40pc;
+  margin-top: -3pc;
+  font-family: Poppins;
+  text-decoration: none;
 }
-.profile-pic{
-  width: 5pc;
-  height: 5pc;
-  margin-top:2pc;
+a{
+  text-decoration: none;
+  color: black;
 }
-.hero{
-  display: flex;
-  margin-top: 2pc;
+
+.Hello{
+  margin-top: 10pc;
+  font-family:Poppins;
+}
+.Names{
+  margin-top: -2pc;
+  font-family: poppins; 
+}
+h3{
+  margin-top: -2pc;
+  font-family: Poppins;
+  color: black;
+  font-weight: 500;
+}
+.k{
+  font-weight: 300;
+}
+.dev{
+  color: rgb(0, 136, 255);
+  margin-top: -2.9pc;
+  margin-left: 6.5pc;
+}
+.Hero{
+  margin-left: 40pc;
+  margin-top: -20.5pc;
+}
+i{
+  padding: .2em .5em;
+  font-size: x-large;
+}
+.project{
+  margin-top: 10pc;
+  font-family:Poppins;
+}
+.p{
+  text-align: center;
+  
+}
+article{
+  background-color: rgb(185, 217, 225);
+  border-radius: 5px;
+  width: 20pc;
+  height: 27pc;
+  
+}
+.portifolio{
+width: 20pc;
+height: 15pc;
+}
+#ToDo{
+  margin-left: 23pc;
+  margin-top: -29.9pc;
+}
+.todo{
+  width: 20pc;
+  height: 15pc;
+  margin-top: -1.5pc;
+}
+.calculator{
+  width: 20pc;
+  height:15pc;
+  margin-top: -1.5pc;
+}
+#Calc{
+  margin-left: 46pc;
+  margin-top: -29.9pc;
+}
+.a{
+  text-align: center;
+  
+}
+.t{
   text-align: center;
 }
+.c{
+  text-align: center;
+}
+button{
+  margin-left: 6pc;
+  margin-top: 1pc;
+  width: 7pc;
+  border-radius: 5px;
+  border-color: rgb(3, 132, 176);
+  background-color: rgb(3, 132, 176);
+  color: white;
+  border: none;
+}
+.button2{
+  margin-top: 1pc;
+  width: 7pc;
+}
+.button3{
+  margin-top: 2.4pc;
+  width: 7pc;
+}
+.education{
+  font-family: Poppins;
+  margin-top: 13pc;
+  margin-left: 46pc;
+
+}
+.education h3 {
+  font-weight: 300;
+  
+}
+.Herro{
+  margin-top: -15pc;
+
+}
+.blog{
+  font-family: Poppins;
+  margin-top: 10pc;
+}
+#blog-posts{
+  font-family: Poppins;
+  
+}
+.form{
+  margin-left: 20pc;
+  font-family: Poppins;
+  
+}
+input{
+  width: 23pc;
+  height: 23px;
+  margin-left: 3.4pc;
+  background-color: #E9E9E9;
+  border-color: #E9E9E9;
+  border: none;
+}
+textarea{
+  width: 23pc;
+  height: 8pc;
+  margin-left: 6.5pc;
+  background-color: #E9E9E9;
+  border: none;
+  margin-top: -1.3pc;
+}
+.name{
+  margin-left: 3.1pc;
+}
+
+.submit{
+  width: 5pc;
+  margin-left: 15pc;
+  background-color: #0A9BC3;
+  border-radius: 5pt;
+  border-color:  #0A9BC3;
+  color: white;
+  border: none;
+}
+.contacts{
+  font-family: Poppins;
+}
+footer{
+  text-align: center;
+}
+.icon i{
+  width: -3pc;
+  margin-left: 1pc;
+}
+.Thierry{
+  font-family: Poppins
+  ;
+}
+.blog-section {
+  padding: 40px 20px;
+  background: #fff;
+}
+.blog-section .blog-post {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+}
+.links a:hover{
+  color: #0A9BC3;
+}
+i{
+  cursor: pointer;
+}
+button{
+  cursor: pointer;
+}
+
+@media (max-width: 440px) {
+  .Shyaka{
+    font-size:large;
+    margin-left: 5.5pc;
+    margin-top: -1pc;
+  }
+
+body{
+  padding: 2pc;
+  padding-top: 1pc;
+}
+.links{
+  margin-left: 0pc;
+  font-size: small;
+  margin-top: 1pc;
+  word-spacing: -0.4px;
+}
+
+
+/* Adjust the Hero image */
+.Hero {
+  display: block;       
+  margin: 2rem auto 0 auto; 
+  width: 80%;  
+  margin-top: -29pc;          
+}
+
+.representation {
+  font-size:small;
+  margin-top:22pc ;
+}
+.project{
+  margin-top: 12pc;
+
+}
+i{
+  height: 5px;
+  margin-top: -1pc;
+}
+#ToDo{
+  margin-left: 0pc;
+  margin-top: 4.8pc;
+}
+#Calc{
+  margin-left: 0pc;
+  margin-top: 4.8pc;
+}
+.education{
+  font-family: Poppins;
+  margin-top: 3pc;
+  margin-left: -0pc;
+  font-size: small;
+}
+.Herro{
+  margin-top: 1pc;
+  width: 20pc;
+  margin-left: -0pc;
+}
+.form{
+  margin-left: -0pc;
+  font-family: Poppins;
+  font-size: small;
+  
+  
+}
+input{
+  width: 21.2pc;
+  height: 23px;
+  margin-left: -0pc;
+  background-color: #E9E9E9;
+  border-color: #E9E9E9;
+  border: none;
+}
+textarea{
+  width: 21.2pc;
+  height: 8pc;
+  margin-left: -0pc;
+  background-color: #E9E9E9;
+  border: none;
+  margin-top: -0pc;
+}
+.name{
+  margin-left: -0pc;
+  font-size: small;
+}
+
+.submit{
+  width: 5pc;
+  margin-left: 15pc;
+  background-color: #0A9BC3;
+  border-radius: 5pt;
+  border-color:  #0A9BC3;
+  color: white;
+  border: none;
+  margin-left: -0pc;
+}
+label{
+  margin-left: -0pc;
+}
+#blog-posts{
+  font-size: small;
+  word-wrap: break-word;
+}
+.dev{
+  margin-top: -2.4pc;
+  margin-left: 4.6pc;
+}
+}
+
+
+ 

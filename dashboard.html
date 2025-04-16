@@ -3,37 +3,283 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
+<style>
+  body{
+    padding-left: 5pc;
+    padding-right: 5pc;
+  }
+  .links {
+    margin-left: 50pc;
+    font-family:Poppins;
+    color: black;
+    margin-top: -3pc;
+  }
+  .hero{
+    font-family: Poppins;
+  }
+  a{
+    color: black; 
+    text-decoration: none;
+    font-size: 20px;
+  }
+  h1{
+    font-family: Poppins;
+    font-weight: 500;
+    margin-top: 5pc;
+  }
+  .dashboard{
+    color: #08A7B0;
+    margin-top: -3.5pc;
+    margin-left: 4pc;
+  }
+  label{
+    font-family:Poppins;
+    font-size: large;
+  }
+  input{
+    width: 35pc;
+    height: 1.8pc;
+    background-color: #E9E9E9;
+    border-radius: 5px;
+    border: none;
+  }
+  textarea{
+    width: 35pc;
+    height: 8pc;
+    background-color: #E9E9E9;
+    border-radius: 5px;
+    border: none;
+  }
+  button{
+    width: 7pc;
+    height: 1.8pc;
+    background-color: #0A9BC3;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: medium;
+  }
+  h3{
+    font-family: Poppins;
+    font-weight: 500;
+    margin-top: 2pc;
+  }
+  .dashboard-post {
+      padding: 1rem;
+      background:#e9e9e9;;
+      border-radius: 5px;
+      width: 34pc;
+      font-family:Poppins;
+      font-size: small;
+      overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+      
+    
+    .dashboard-post h4 {
+      margin-bottom: 0.5rem;
+    }
+    .dashboard-post small {
+      color: #676868;
+    }
+    .dashboard-post p {
+      margin-bottom: 1rem;
+    }
+    .dashboard-post button {
+      background:#0A9BC3;;
+      
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-right: 0.5rem;
+    }
+    .dashboard-post button:hover {
+      background: #05e2ff;
+    }
+    #dashboard{
+      margin-left: 15pc;
+    }
+  
+    
+
+    @media (max-width: 440px) {
+  .hero{
+    font-size:large;
+    margin-left: 5.5pc;
+    margin-top: -2pc;
+  }
+
+body{
+  padding: 2pc;
+  padding-top: 1pc;
+}
+.links{
+  margin-left: 0pc;
+  font-size: small;
+  margin-top: -1pc;
+  word-spacing: 2.7px;
+}
+label{
+  margin-left: -0pc;
+  font-size: small;
+}
+input{
+  width: 21.2pc;
+  height: 23px;
+  margin-left: -0pc;
+  background-color: #E9E9E9;
+  border-color: #E9E9E9;
+  border: none;
+}
+textarea{
+  width: 21.2pc;
+  height: 8pc;
+  margin-left: -0pc;
+  background-color: #E9E9E9;
+  border: none;
+  margin-top: -0pc;
+}
+.dashboard-post button {
+  
+  width: 4pc;
+  height: 20px;
+  margin-top: 2.6pc;
+}
+.dashboard-post {
+  width: 19.4pc;
+  height: 10pc;
+  margin-left: -0pc;
+  background-color: #E9E9E9;
+  border: none;
+  margin-top: -0pc;
+  font-size: small;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+    #dashboard{
+      margin-left: -0pc;
+    }
+    
+    #postForm{
+      margin-top: -1pc;
+    }
+
+    }
+   
+    
+
+</style>
 <body>
   <nav>
-    <div>
-        <h2>Shyaka Thierry</h2>
+    <div class="hero">
+        <h2><i class="fa-solid fa-code">&nbsp;</i>Shyaka</h2>
     </div>
-    <div>
-        <a href="index.html">Home</a>
+    <div class="links">
+        <a href="index.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="">Add Post</a>
     </div>
-  </nav>
-  <section>
-    <h1>Blog Dashboard</h1><br>
-    <form action="" method="post">
-        <label>Title</label><br>
-        <input type="text"><br><br>
-        <label>Date</label><br>
-        <input type="date"><br><br>
-        <label>Content</label><br>
-        <textarea wrap="soft"></textarea>
-        <br>
-        <button>Save Post</button>
-        <br>
-    </form>
-    <div>
-        <h3>Your Blog Post</h3>
+  </nav><main>
+    <section id="dashboard">
+      <h1>Blog <h1 class="dashboard">Dashboard</h1></h1><br>
+      <form action="" method="post" id="postForm">
+        <input type="hidden" id="post-index">
+          <label>Title</label><br><br>
+          <input type="text" id="post-title"><br><br>
+          <label>Date</label><br><br>
+          <input type="date" id="post-date"><br><br>
+          <label>Content</label><br><br>
+          <textarea wrap="soft" id="post-content" maxlength="70"></textarea>
+          <br><br>
+          <button type="submit">Save Post</button>
+          <br>
+      </form>
+      <div>
+          <h3>Your Blog Post</h3>
+      </div>
+      <div id="postsList">
 
-    </div>
-    <script>
-        
-    </script>
-  </section>
+      </div>
+ 
+    </section>
+  </main>
+   <script>
+     
+     function getPosts(){
+      return JSON.parse(localStorage.getItem('BlogPosts')) || [];
+     }
+     function savePosts(posts){
+      localStorage.setItem('BlogPosts',JSON.stringify(posts));
+     }
+      // Dispay list of posts
+      function displayPosts(){
+  // Get the correct container element for displaying posts
+  const postsList = document.getElementById('postsList');
+  postsList.innerHTML = '';
+  const posts = getPosts();
+  posts.forEach((post, index) => {
+    const postEl = document.createElement('div');
+    postEl.className = 'dashboard-post';
+    postEl.innerHTML = `
+      <h4>${post.title}</h4>
+      <small>${post.date}</small>
+      <p>${post.content}...</p>
+      <button onclick="editPost(${index})">Edit</button>
+      <button onclick="deletePost(${index})">Delete</button>
+    `;
+    postsList.appendChild(postEl); // Use postsList instead of postList
+  });
+}
+
+    // Add or update a post
+    document.getElementById('postForm').addEventListener('submit',function(e){
+      e.preventDefault();
+      const title=document.getElementById('post-title').value.trim();
+      const date =document.getElementById('post-date').value;
+      const content=document.getElementById('post-content').value.trim();
+      let posts =getPosts();
+      const postIndex =document.getElementById('post-index').value;
+      if(postIndex === ""){
+        // Add new post
+        posts.push({title, date, content});
+      }
+      else{
+        posts[postIndex]={title, date, content};
+        document.getElementById('post-index').value="";
+      }
+     savePosts(posts);
+     displayPosts();
+     this.reset();
+    });
+     // Edit a post (loads data into the form)
+     function editPost(index) {
+      const posts = getPosts();
+      const post = posts[index];
+      document.getElementById('post-title').value = post.title;
+      document.getElementById('post-date').value = post.date;
+      document.getElementById('post-content').value = post.content;
+      document.getElementById('post-index').value = index;
+      // Scroll to the form section
+      window.scrollTo(0, 0);
+    }
+    // Delete a post
+    function deletePost(index) {
+      let posts = getPosts();
+      if (confirm("Are you sure you want to delete this blog post?")) {
+        posts.splice(index, 1); // Remove the post at the given index
+        savePosts(posts);
+        displayPosts();
+      }
+    }
+    document.addEventListener('DOMContentLoaded', displayPosts);
+   </script>
 </body>
 </html>
